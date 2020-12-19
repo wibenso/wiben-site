@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wiben site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on wiben site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 19 Dec 2020 18:40:33 +0700</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Init</title>
+      <link>http://example.org/post/init/</link>
+      <pubDate>Sat, 19 Dec 2020 18:40:33 +0700</pubDate>
+      
+      <guid>http://example.org/post/init/</guid>
+      <description>Hi! setelah sekian lama tidak menulis sesuatu, dan kemarin sempat beli domain dan hanya mengagnggur, maka kali ini saya mencoba untuk memulai sesuatu yang baru
+website ini akan saya dedikasikan untuk membuat beberapa tutorial, sharing kalau ada barang lucu yang saya beli, download dan lain lain.
+salah satunya adalah framework yang saya gunakan untuk membuat website ini, https://gohugo.io . sampai bait tulisan ini dibuat, saya belum baca sampai dengan deployment step nya, jika mudah, maka anda sedang membaca tulisan ini.</description>
+    </item>
+    
+  </channel>
+</rss>
