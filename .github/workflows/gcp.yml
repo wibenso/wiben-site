@@ -13,6 +13,13 @@
 name: Build and Deploy to GKE
 
 on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  page_build:  
   release:
     types: [created]
 
@@ -53,6 +60,8 @@ jobs:
     # Build the Docker image
     - name: Build
       run: |-
+        git submodule init
+        git submodule update
         docker build \
           --tag "gcr.io/$PROJECT_ID/$IMAGE:$GITHUB_SHA" \
           --build-arg GITHUB_SHA="$GITHUB_SHA" \
