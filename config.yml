@@ -1,0 +1,28 @@
+baseURL: "http://wiben.site/"
+theme: "hugo-PaperMod"
+languageCode: "id-ID"
+title: "wiben site"
+
+
+params:
+    description: "wiben rambling"
+    author: wiben
+    
+    profileMode:
+        enabled: true
+        title: wiben.site
+        imageUrl: "#"
+        imageTitle: huwala
+        # imageWidth: 120
+        # imageHeight: 120
+        buttons:
+            - name: Web Development
+              url: webdevelopment
+            - name: Blog
+              url: blog
+
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: >
+            Welcome to demo of hugo's theme PaperMod.
+            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
