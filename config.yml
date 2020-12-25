@@ -5,24 +5,29 @@ title: "wiben site"
 
 
 params:
-    description: "wiben rambling"
-    author: wiben
-    
-    profileMode:
-        enabled: true
-        title: wiben.site
-        imageUrl: "#"
-        imageTitle: huwala
-        # imageWidth: 120
-        # imageHeight: 120
-        buttons:
-            - name: Web Development
-              url: webdevelopment
-            - name: Blog
-              url: blog
+  description: "wiben rambling"
+  author: wiben
+  
+  profileMode:
+    enabled: false
+    title: wiben.site
+    # imageUrl: "#"
+    # imageTitle: huwala
+    # imageWidth: 120
+    # imageHeight: 120
+    buttons:
+      - name: Blog
+        url: blog
 
-    homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: >
-            Welcome to demo of hugo's theme PaperMod.
-            - **PaperMod** is a simple but fast and responsive theme with useful feature-set that enhances UX.
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+        Ini website wiben, tulisan-tulisan ada dibawah
+      
+  socialIcons: 
+    - name: instagram
+      url: "http://instagram.com/wibenson"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/wibenson-huang-ba2205a8/"
+    - name: github
+      url: "https://github.com/notwiben/"
