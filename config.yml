@@ -1,4 +1,4 @@
-baseURL: "http://wiben.site/"
+baseURL: "https://wiben.site/"
 theme: "hugo-PaperMod"
 languageCode: "id-ID"
 title: "wiben site"
