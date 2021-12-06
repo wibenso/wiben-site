@@ -1,0 +1,16 @@
+steps:
+  - block: "Request Release to staging"
+
+  - command:
+    - "deployer --build-from-pod --use-helmfile"
+    agents:
+      - "gce=true"
+
+  - block: "Request Release to production"
+
+  - label: ":rocket: Release to Production"
+    command:
+      - tag=$$(buildkite-agent meta-data get "tag")
+      - "deployer --build-from-pod --use-helmfile  --project=sirclo-prod --docker-tag $$tag"
+    agents:
+      - "gce-prod=true"
